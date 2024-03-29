@@ -1,0 +1,39 @@
+# Xcode
+.DS_Store
+build/
+DerivedData/
+/*.pbxuser
+/*.mode1v3
+/*.mode2v3
+/*.perspectivev3
+*.xcworkspace/
+*.xcuserdatad/
+
+# Swift Package Manager
+/.swiftpm
+
+# CocoaPods
+/Pods/
+
+# Carthage
+/Carthage/Checkouts
+/Carthage/Build
+
+# App artifacts
+*.ipa
+*.xcarchive
+
+# Swift Package Manager and CocoaPods environment files
+/.xcconfig
+*.xcuserdata/
+!default.xcconfig
+
+# User-specific Xcode configuration 
+*.xcuserstate
+
+# Miscellaneous
+*.log
+*.xccheckout
+*.moved-aside
+*.xcuserdatad
+*.xcscmblueprint
