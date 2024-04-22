@@ -1,23 +1,41 @@
-//
-//  ContentView.swift
-//  AlarmClockApp
-//
-//
-
 import SwiftUI
 
 struct ContentView: View {
+    @State private var selectedTab = 0
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        TabView(selection: $selectedTab) {
+            AlarmView()
+                .tabItem {
+                    Image(systemName: "alarm.fill")
+                    Text("Alarm")
+                }
+                .tag(0)
+            
+            TimerView()
+                .tabItem {
+                    Image(systemName: "timer")
+                    Text("Timer")
+                }
+                .tag(1)
+            
+            StopwatchView()
+                .tabItem {
+                    Image(systemName: "stopwatch.fill")
+                    Text("Stopwatch")
+                }
+                .tag(2)
         }
-        .padding()
+        .accentColor(.white)
+        .background(Color.black.edgesIgnoringSafeArea(.all))
     }
 }
 
-#Preview {
-    ContentView()
+
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+            .preferredColorScheme(.dark)
+    }
 }

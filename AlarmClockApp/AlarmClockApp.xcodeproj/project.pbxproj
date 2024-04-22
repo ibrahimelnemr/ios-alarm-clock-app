@@ -11,6 +11,9 @@
 		0F71F9302BB7599400AAC398 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F71F92F2BB7599400AAC398 /* ContentView.swift */; };
 		0F71F9322BB7599D00AAC398 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F71F9312BB7599D00AAC398 /* Assets.xcassets */; };
 		0F71F9352BB7599D00AAC398 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F71F9342BB7599D00AAC398 /* Preview Assets.xcassets */; };
+		0FFA75902BD7053D005CFC58 /* AlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFA758F2BD7053D005CFC58 /* AlarmView.swift */; };
+		0FFA75922BD7055C005CFC58 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFA75912BD7055C005CFC58 /* TimerView.swift */; };
+		0FFA75942BD70588005CFC58 /* StopwatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFA75932BD70588005CFC58 /* StopwatchView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		0F71F92F2BB7599400AAC398 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0F71F9312BB7599D00AAC398 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0F71F9342BB7599D00AAC398 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0FFA758F2BD7053D005CFC58 /* AlarmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmView.swift; sourceTree = "<group>"; };
+		0FFA75912BD7055C005CFC58 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		0FFA75932BD70588005CFC58 /* StopwatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopwatchView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,9 @@
 			children = (
 				0F71F92D2BB7599300AAC398 /* AlarmClockAppApp.swift */,
 				0F71F92F2BB7599400AAC398 /* ContentView.swift */,
+				0FFA75932BD70588005CFC58 /* StopwatchView.swift */,
+				0FFA75912BD7055C005CFC58 /* TimerView.swift */,
+				0FFA758F2BD7053D005CFC58 /* AlarmView.swift */,
 				0F71F9312BB7599D00AAC398 /* Assets.xcassets */,
 				0F71F9332BB7599D00AAC398 /* Preview Content */,
 			);
@@ -138,6 +147,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F71F9302BB7599400AAC398 /* ContentView.swift in Sources */,
+				0FFA75902BD7053D005CFC58 /* AlarmView.swift in Sources */,
+				0FFA75922BD7055C005CFC58 /* TimerView.swift in Sources */,
+				0FFA75942BD70588005CFC58 /* StopwatchView.swift in Sources */,
 				0F71F92E2BB7599300AAC398 /* AlarmClockAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
